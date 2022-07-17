@@ -26,7 +26,7 @@ jobs:
       - checkout
       - run:
           name: "echo an env var that is part of our project"
-          command: 
+          command: |
             echo $Test_Env_Var # this env var must be set within the project
 workflows:
   # Name the workflow "welcome"
